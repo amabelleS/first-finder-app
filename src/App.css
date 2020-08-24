@@ -26,6 +26,8 @@ body {
   background-color: #fff;
   color: #333;
   background-image: url("https://cdn.pixabay.com/photo/2016/02/27/00/28/fractal-1224961_960_720.png");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
 }
 
 a {
@@ -437,6 +439,7 @@ button {
   width: 92vw;
   margin: 1rem auto;
   background-color: var(--secLight-color);
+  opacity: 0.9;
 }
 
 .table td {

@@ -41,10 +41,10 @@ function App() {
   };
 
   return (
-    <div className="text-center">
+    <div className="">
       <header className="">
         <input type="text" name="searchSrain" id="" onChange={handleChange} />
-        <h1 className="lead text-light">
+        <h1>
           {searchCritiria && searchCritiria.length
             ? `searching ${searchCritiria}`
             : "all stain search"}

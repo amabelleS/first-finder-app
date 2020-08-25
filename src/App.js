@@ -27,7 +27,7 @@ function App() {
       if (searchCritiria && searchCritiria.length) {
         const result = await axios({
           method: "GET",
-          url: `http://strainapi.evanbusse.com/${STRAIN_API_KEY}/strains/search/name/${searchCritiria}`,
+          url: `https://strainapi.evanbusse.com/${STRAIN_API_KEY}/strains/search/name/${searchCritiria}`,
         });
         setStrains(result.data);
       }

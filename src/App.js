@@ -47,7 +47,7 @@ function App() {
         <h1 className="lead text-light">
           {searchCritiria && searchCritiria.length
             ? `searching ${searchCritiria}`
-            : "all stain search"}
+            : "all strain search"}
         </h1>
         <code>{searchCritiria}</code>
         <Strains data={strains} />
